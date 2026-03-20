@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'https://clinica-veterinaria-n55n.onrender.com'
+  baseURL: 'https://clinica-veterinaria-n55n.onrender.com/api'
 })
 
 // adiciona o token automaticamente
